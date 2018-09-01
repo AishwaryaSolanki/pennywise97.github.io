@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper-utils.js" type="text/javascript"></script>
+    <script src="js/portfolio.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aishwary Solanki</title>
+  </head>
+  <body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+      <a class="navbar-brand logo" href="#"><i class="fas fa-user-circle fa-2x"></i></a>
+      <span class="navbar-brand mb-0 h1">Aishwarya Solanki</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#feature">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a data-toggle="modal" data-target="#exampleModalCenter" class="nav-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+    <div class="jumbotron shadow">
+          <img src="images/me.jpeg" class="figure-img img-fluid rounded float-left shadow" alt="Aishwary Solanki">
+    </div>
+  <h1 class="display-4">Aishwarya Solanki</h1>
+  <h2 class="display-5">Web Developer</h2>
+    </header>
+  <div class="container">
+  <div data-spy="scroll" data-target="#navbar" data-offset="0">
+  <div class="accordion" id="accordionExample">
+  <h1 id="aboutme" class="display-4">ABOUT ME</h1>
+  <div class="card shadow">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Personal Life
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">1997</dt>
+            <dd class="col-sm-9">Born in Anand, Gujarat.</dd>
+
+            <dt class="col-sm-3">1998-</dt>
+            <dd class="col-sm-9">
+              Brought up in Vadodara, Gujarat.
+            </dd>
+
+            <dt class="col-sm-3">2013</dt>
+            <dd class="col-sm-9">
+              <p>Passed my 10th Standard topping the School.</p>
+              <p>Built my First Website- A jwellery store Landing Page</p>
+            </dd>
+
+            <dt class="col-sm-3 text-truncate">2015</dt>
+            <dd class="col-sm-9">
+              <p>Passed 12th Grade.</p>
+              <p>Cracked JEE Mains.</p>
+              <p>Got admitted to SVNIT, Surat for B.Tech Engineering in Computer Engg.</p>
+            </dd>
+
+            <dt class="col-sm-3">Currently</dt>
+            <dd class="col-sm-9">
+              <p>Interning at MeshEdu.org</p>
+              <p>Pursuing Front-End Nanodegree</p>
+              <p>Contriuting to Open Source</p>
+              <p>Final year of college.</p>
+            </dd>
+          </dl>
+      </div>
+    </div>
+  </div>
+  <div class="card shadow">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Professional Life
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <dl class="row">
+          <dt class="col-sm-3">2013</dt>
+          <dd class="col-sm-9">Knows C, C++. Made academic level projects.</dd>
+
+          <dt class="col-sm-3">2014</dt>
+          <dd class="col-sm-9">
+            Started creating websites with HTML, CSS, JS, jQuery.
+          </dd>
+
+          <dt class="col-sm-3">2015</dt>
+          <dd class="col-sm-9">
+            <p>Knows Java now, makes some over the top academic Projects.</p>
+            <p>Gets Basic Exposure to Data Structure</p>
+            <p>Also, College level Fundamentals of Computer Engg.</p>
+          </dd>
+
+            <dt class="col-sm-3 text-truncate">2016</dt>
+            <dd class="col-sm-9">
+              <p>Knows Matlab, made Text Recognition Projects.</p>
+              <p>Uses LAMP stack for website development.</p>
+            </dd>
+
+            <dt class="col-sm-3">2017</dt>
+            <dd class="col-sm-9">
+              <p>Masters JavaScript, jQuery</p>
+              <p>Works with Node, Express, MongoDB</p>
+              <p>Makes Websites with MEN stack</p>
+            </dd>
+
+            <dt class="col-sm-3 text-truncate">2018</dt>
+            <dd class="col-sm-9">
+              <p>Knows React, Redux</p>
+              <p>Makes websites with MERN stack now</p>
+              <p>Making a PWA for the internship built on React</p>
+              <p>Contriuting to an Open Source Project as a React Developer.</p>
+            </dd>
+          </dl>
+      </div>
+    </div>
+  </div>
+  <div class="card shadow">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Interests
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-3">(apart from coding)I like to</dt>
+            <dd class="col-sm-9">
+              <p>Swim</p>
+              <p>Cook</p>
+              <p>Listen to Music</p>
+              <p>Write poetries</p>
+              <p>Reading Psychology books</p>
+            </dd>
+
+            <dt class="col-sm-3">Music Type</dt>
+            <dd class="col-sm-9">
+              <p>Mostly 90's Hip Hop, Rock, Rock n' Roll, Psychedelic Rock and sometimes Ambient Pop.</p>
+              <p>Fangirl: RHCP, Tame Impala, Eminem.</p>
+            </dd>
+
+            <dt class="col-sm-3">Favourite Football Teams</dt>
+            <dd class="col-sm-9">
+              <p>Die Mannschaft</p>
+              <p>Real Madrid</p>
+            </dd>
+          </dl>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<h1 id="feature" class="display-4 featured">Featured Work</h1>
+<div class="card-columns">
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/colorGame.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/OQqZmK">RGB Color Game</a></h5>
+      <p class="card-text">It was one of my first projects. I made it while doing a course taught by Colt Steele.</p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/scatterplot.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/scatterplot">Scatterplot</a></h5>
+      <p class="card-text">D3 and SVG have always fascinated me. It was about time i made a project with it. So i present to you my first D3 project and the visuals by SVG.</p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/photoGrid.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/WMdZjK">Photo grid</a></h5>
+      <p class="card-text">This website called <a href="https://www.nitch.com/">NITCH</a> is one of my favourite and the first inspirations for grids with css. And oh boy was it fun making it. Do check the website out.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/patatap.jpg" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/patatapClone">Patatap Clone</a></h5>
+      <p class="card-text">This amazing website called <a href="https://patatap.com/">Patatap</a> is so addictive, i ended up making it's clone, it has various sounds for various keys and a random colored circle for every key between a-z that you press.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/histogram.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/histogram">Histogram</a></h5>
+      <p class="card-text">Another D3 and SVG project: Histogram with a range input for changing years. Data by UNESCO.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/todoList.jpg" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/bvMVRG">Todo List</a></h5>
+      <p class="card-text">jQuery made it so easy. To-do lists are a starter pack musts for any web developer. icons by Fontawesome.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/piechart.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/pie-chart">Pie Chart</a></h5>
+      <p class="card-text">Pie chart inside a pie chart. Bigger pie chart is for one month per segment and the inner one is for quarters.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/letterInfo.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Days-of-D3/tree/master/Freq_app">Letter Count</a></h5>
+      <p class="card-text">A frequency count web app with D3 and SVG.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/yelpcamp.jpg" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/YelpCamp">YelpCamp</a></h5>
+      <p class="card-text">Yelp clone but with a twist, it's for campgrounds. Visit the heroku deployed site: <a href="https://yelpcamp-pennywise.herokuapp.com/">YelpCamp</a></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img-top" src="images/warbler.png" alt="Card image cap">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Twitter-clone">Twitter Clone</a></h5>
+      <p class="card-text">My best site at cloning Twitter's functionalities.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/animalCard.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/RQxmeZ">Animal Card</a></h5>
+      <p class="card-text">A project on my favourite dog breed, aren't they adorable?</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/blog.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/Blog-App">Blog App</a></h5>
+      <p class="card-text">RESTful routing is used for this app along with Node, Express and MongoDB.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/todoMEN.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/todo-list">Todo-List(MEN)</a></h5>
+      <p class="card-text">Another To-do list app but this time with a DB to remember what all your louzy ass forgot to achieve.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/button.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://codepen.io/pennywise97/pen/OZqEoy">Funny button</a></h5>
+      <p class="card-text">Press the button and get a funny Chuck Norris quote, I know web developers are Lame.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/memoryGame.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/fend-project-memory-game">Memory Game</a></h5>
+      <p class="card-text">Memory game with JS as a part of Google's India Scholarship program.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card border-lighter mb-3">
+    <img class="card-img" src="images/arcade.png" alt="Card image">
+    <div class="card-body shadow">
+      <h5 class="card-title"><a href="https://github.com/pennywise97/frontend-nanodegree-arcade-game">Arcade Game</a></h5>
+      <p class="card-text">A classic arcade game with features like lives, score and timer made also as a part of Google's India Scholarship.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="skills" class="container containerSkills">
+  <h1 class="display-4 skill">Skill Set</h1>
+  <h4 class="skills" class="display-5 skill">HTML</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+</div>
+<h4 class="skills" class="display-5 skill">CSS</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+<h4 class="skills" class="display-5 skill">JavaScript</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+</div>
+<h4 class="skills" class="display-5 skill">React & Redux</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">60%</div>
+</div>
+<h4 class="skills" class="display-5 skill">jQuery</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+<h4 class="skills" class="display-5 skill">D3 & SVG</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+</div>
+<h4 class="skills" class="display-5 skill">MEN Stack</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+<h4 class="skills" class="display-5 skill">Java</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 80%">70%</div>
+</div>
+<h4 class="skills" class="display-5 skill">Git and GitHub</h4>
+<div class="progress shadow">
+  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">80%</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<footer id="contact">
+<nav class="navbar sticky-bottom navbar-dark bg-dark shadow">
+  <ul class="nav nav-pills">
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="Medium" class="nav-link" href="https://medium.com/@pennywise97"><i class="fab fa-medium"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="GitHub" class="nav-link" href="https://github.com/pennywise97"><i class="fab fa-github"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="Instagram" class="nav-link" href="https://www.instagram.com/aish_1797"><i class="fab fa-instagram"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="Codepen" class="nav-link" href="https://codepen.io/pennywise97"><i class="fab fa-codepen"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="Email Me" class="nav-link" href="mailto:aishwaryasolanki1997@gmail.com?Subject=Hello%20Aishwarya"><i class="fas fa-envelope"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="LinkedIn" class="nav-link" class="nav-link" href="https://www.linkedin.com/in/aishwarya-solanki-52b595128/"><i class="fab fa-linkedin"></i></a>
+  </li>
+  <li class="nav-item">
+    <a data-toggle="tooltip" data-placement="top" title="Portfolio" class="nav-link" class="nav-link" href="https://drive.google.com/file/d/1Rombym2hrBna6bmV8AiWrJDB3ICbVi3y/view?usp=sharing"><i class="fas fa-user"></i></i></a>
+  </li>
+</ul>
+</nav>
+</footer>
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+<div class="modal-content">
+<div class="modal-header">
+  <h5 class="modal-title" id="exampleModalCenterTitle">Send your thoughts....</h5>
+  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
+<div class="modal-body">
+  <form action="#">
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <input type="email" class="form-control"  placeholder="Email" required name="email" >
+      </div>
+    </div>
+      <div class="form-row">
+          <div class="form-group col-md-">
+            <input type="text" class="form-control" placeholder="First name"  name="first"  required>
+          </div>
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" placeholder="Last name" name="last" >
+          </div>
+        </div>
+
+    <div class="input-group">
+      <div class="input-group-prepend">
+      </div>
+      <textarea name="body" class="form-control" aria-label="With textarea" placeholder="Enter Your Message Here" name="textArea" required></textarea>
+    </div>
+    </form>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-lg btn-secondary" data-dismiss="modal">Close</button>
+  <button type="submit" class="btn btn-lg btn-primary">Send</button>
+</div>
+</div>
+</div>
+</div>
+  </body>
+</html>
